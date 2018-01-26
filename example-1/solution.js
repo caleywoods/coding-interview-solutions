@@ -16,6 +16,8 @@
   solution I came up with while my head screamed "There has to be a better way!!!"
 
   Time ~ 20 minutes
+
+  O(n^2)
 */
 getTwenty = ( numArray ) => {
   let hashTable = {};
@@ -43,6 +45,8 @@ getTwenty = ( numArray ) => {
   go evenly into 20 then it cannot be part of a pair that multiplies
 
   Time ~ 15 minutes (and 2 nutty bars.)
+
+  O(n)
 */
 
 
